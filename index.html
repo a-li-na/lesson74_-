@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.border1 {
+			border: solid;
+			border-color: black;
+			border-width: 1px;
+		}
+
+		.net {
+			background-color: white;
+		}
+
+		.da1 {
+			background-color: white;
+		}
+
+		.da2 {
+			background-color: white;
+		}
+
+		.da3 {
+			background-color: white;
+		}
+
+		.da4 {
+			background-color: white;
+		}
+
+		.kletki1 {
+			text-decoration: none;
+		}
+
+		.kletki2 {
+			text-decoration: none;
+		}
+
+		.kletki3 {
+			text-decoration: none;
+		}
+
+		.kletki4 {
+			text-decoration: none;
+		}
+
+		.str1 {
+			display: block;
+		}
+
+		.str2 {
+			display: none;
+		}
+
+
+		.str3 {
+			display: none;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<!-- это div-родитель -->
+	<div class="col-7 bg-light mx-auto str1">
+		<div style="margin-top: 80px;">
+			<h1 class="task">Морской бой!</h1>
+			<h3 class="task kletki4" style="color: violet; font-weight: bold;"> Корабль с 4 клетками - 1</h3>
+			<h3 class="task kletki3" style="color: green; font-weight: bold;"> Корабли с 3 клетками - 2</h3>
+			<h3 class="task kletki2" style="color: blue; font-weight: bold;"> Корабли с 2 клетками - 3</h3>
+			<h3 class="task kletka1" style="color: orange; font-weight: bold;"> Корабли с 1 клеткой - 4</h3>
+			<h3 style="font-weight: bold;">Попыток осталось: <span class="snet"> 9 </span> </h3>
+		</div>
+		<!-- Дивы с нумерацией 1, 2, 3 и т.д. -->
+		<div class="row" style="margin-top: 80px;">
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border1">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>6</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>8</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>9</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border1">
+				<h4>10</h4>
+			</div>
+		</div>  
+		<!--Линия А-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 border1 da3">
+				
+			</div>
+			<div class="col-1 px-5 py-4 border1 da3">
+				
+			</div>
+			<div class="col-1 px-5 py-4 border1 da3">
+				
+			</div>
+			<div class="col-1 px-5 py-4 border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 border1 da1">
+				
+			</div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-warning text-center border1">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+			
+			</div>
+			<div class="col-1  px-5 py-4   border1 da2">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 da2">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4    border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4    border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4    border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4    border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>	
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border1">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4   border1 da3">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4   border1 da1">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4   border1 net">
+				
+			</div>
+		</div>
+		<!--Линия E-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border1">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg  border1 da3">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg  border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg  border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg  border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border1 net">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+		</div>
+		<!--Линия F-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da3">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da4">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da1">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da2">
+				
+			</div>
+		</div>
+		<!--Линия G-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>G</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da4">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da2">
+				
+			</div>
+		</div>
+		<!--Линия H-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>H</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da4">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da2">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da2">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+		</div>
+		<!--Линия I-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>I</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da1">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1 da4">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+		</div>
+		<!--Линия J-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border1">
+				<h4>J</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border1  net">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="str2" style="margin-left: auto; margin-right: auto; width: 600px;">
+		<img src="lose.jpg">
+	</div>
+
+
+	<div class="str3" style="margin-left: auto; margin-right: auto; width: 600px;">
+		<img src="win.jpg">
+	</div>
+
+	
+
+	<script type="text/javascript">
+		
+		
+		
+	</script>
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+	let scorenet = 9;
+	console.log(scorenet);
+	
+
+
+
+	let scoreda = 0;
+	console.log(scoreda);
+	
+
+
+
+	let das1 = document.querySelectorAll('.da1');
+
+	for (let i=0; i<4; i=i+1) {
+		das1[i].onclick = function() {
+			das1[i].style.backgroundColor = 'orange';
+			scoreda = scoreda + 1;
+			if (scoreda == 20) {
+				document.querySelector('.str1').style.display = "none";
+				document.querySelector('.str3').style.display = "block";
+			}
+
+		}
+	}
+
+
+
+	let das2 = document.querySelectorAll('.da2');
+
+	for (let i=0; i<6; i=i+1) {
+		das2[i].onclick = function() {
+			das2[i].style.backgroundColor = 'blue';
+			scoreda = scoreda + 1;
+			if (scoreda == 20) {
+				document.querySelector('.str1').style.display = "none";
+				document.querySelector('.str3').style.display = "block";
+			}
+
+		}
+	}
+
+
+
+	let das3 = document.querySelectorAll('.da3');
+
+	for (let i=0; i<6; i=i+1) {
+		das3[i].onclick = function() {
+			das3[i].style.backgroundColor = 'green';
+			scoreda = scoreda + 1;
+			if (scoreda == 20) {
+				document.querySelector('.str1').style.display = "none";
+				document.querySelector('.str3').style.display = "block";
+			}
+		}
+	}
+
+
+
+
+	let das4 = document.querySelectorAll('.da4');
+
+	for (let i=0; i<4; i=i+1) {
+		das4[i].onclick = function() {
+			das4[i].style.backgroundColor = 'violet';
+			scoreda = scoreda + 1;
+			if (scoreda == 20) {
+				document.querySelector('.str1').style.display = "none";
+				document.querySelector('.str3').style.display = "block";
+			}
+		}
+	}
+
+
+	let nets = document.querySelectorAll('.net');
+
+	for (let i=0; i<80; i=i+1) {
+		nets[i].onclick = function() {
+			nets[i].style.backgroundColor = "black";
+			scorenet = scorenet - 1;
+			document.querySelector('.snet').innerHTML = scorenet ;
+			if (scorenet == 0) {
+				document.querySelector('.str2').style.display = "block";
+				document.querySelector('.str1').style.display = "none";
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+	
+</script>
